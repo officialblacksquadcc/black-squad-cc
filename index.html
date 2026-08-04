@@ -11,6 +11,7 @@ margin:0;
 padding:0;
 box-sizing:border-box;
 font-family:Arial,sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
@@ -41,18 +42,20 @@ text-align:center;
 }
 
 .hero h2{
-font-size:45px;
+font-size:42px;
 color:#00E5FF;
+margin-bottom:10px;
 }
 
 .hero p{
-margin:20px 0;
 font-size:20px;
+margin-bottom:25px;
 }
 
 button{
 padding:15px 30px;
 background:#00E5FF;
+color:#000;
 border:none;
 border-radius:8px;
 font-size:18px;
@@ -73,11 +76,17 @@ color:#00E5FF;
 margin-bottom:15px;
 }
 
+ul{
+list-style:none;
+line-height:2;
+font-size:18px;
+}
+
 footer{
 text-align:center;
 padding:20px;
 margin-top:30px;
-border-top:2px solid gold;
+border-top:2px solid #00E5FF;
 }
 </style>
 
@@ -94,32 +103,46 @@ border-top:2px solid gold;
 <h2>Welcome to Black Squad Cricket Club</h2>
 <p>Official Team Website</p>
 
-<button>View Team</button>
-
+<button onclick="location.href='#team'">View Team</button>
 
 </section>
 
 <div class="card">
-
-
-</div>
-<h3>Latest Match</h3>
-
-<p>Apex CC vs Black Squad</p>
+<h3>🏆 Latest Match</h3>
+<p><b>Apex CC</b> vs <b>Black Squad CC</b></p>
 <p>Apex CC won by 11 Runs</p>
-<p>81/9 (12) vs 70/10 (12)</p>
-
+<p>81/9 (12 Overs) vs 70/10 (12 Overs)</p>
 </div>
 
 <div class="card">
-<h3>Top Performers</h3>
-
+<h3>⭐ Top Performers</h3>
 <p>🏏 Ajay - 19 Runs</p>
 <p>🎯 Chandru - 5 Wickets</p>
+</div>
+
+<section id="team" class="card">
+<h3>🏏 BLACK SQUAD CC PLAYERS</h3>
+
+<ul>
+<li>👑 Praveen (Captain)</li>
+<li>🧤 Nandha (Vice Captain • Wicket Keeper)</li>
+<li>🏏 Ganesh</li>
+<li>🏏 Chandru</li>
+<li>🏏 Hari</li>
+<li>🏏 Muthu</li>
+<li>🏏 Ajay</li>
+<li>🏏 Thiran</li>
+<li>🏏 Jeeva</li>
+<li>🏏 Pollard</li>
+<li>🏏 Sarathi</li>
+<li>🏏 Vikash</li>
+<li>🏏 Kalee</li>
+</ul>
+
+</section>
+
 <footer>
-
 © 2026 BLACK SQUAD CC
-
 </footer>
 
 </body>
